@@ -72,4 +72,4 @@ def optimize_generation_capacity(demand_df, solar_cuf, wind_cuf, solar_cost_fact
     demand_df_result["Wind_Generation"] = wind_val * wind_cuf
     demand_df_result["Total_Generation"] = (demand_df_result["Solar_Generation"] + 
                                            demand_df_result["Wind_Generation"])
-    return solar_val, wind_val, demand_df_result
+    return solar_val, wind_val, demand_df_result 
